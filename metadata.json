@@ -1,0 +1,6 @@
+{
+  "name": "Quads Gym",
+  "description": "The official premium web experience for Quads Gym, Chicago's legendary mecca for serious lifters, bodybuilding, and elite performance training.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

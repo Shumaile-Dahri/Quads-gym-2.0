@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600;700;900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Space+Grotesk:wght@300..705&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-amber-400: #E5C158;
+  --color-amber-500: #D4AF37;
+  --color-amber-600: #B8962D;
+  --color-gold-accent: #D4AF37;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-display: "Space Grotesk", sans-serif;
+}
+
+/* Custom class for the editorial outline text stroke */
+.stroke-text {
+  -webkit-text-stroke: 1px #D4AF37;
+  color: transparent;
+  text-shadow: none;
+}
+
+.stroke-text-white {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.4);
+  color: transparent;
+  text-shadow: none;
+}
+
+/* Base style adjustments */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #050505;
+  color: #e4e4e7;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
